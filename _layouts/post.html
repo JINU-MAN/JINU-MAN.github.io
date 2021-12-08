@@ -68,6 +68,14 @@ layout: default
     {% include disqus.html %}
   {% endif %}
 </article>
+{% raw %}
+
+<!-- disqus -->
+{% if page.comments == true %}
+{% include disqus.html %}
+{% endif %}
+<!-- disqus -->
+{% endraw %}
 
 {% if site.related_posts != empty %}
   <aside class="related">
