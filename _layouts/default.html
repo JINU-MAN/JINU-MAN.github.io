@@ -19,5 +19,16 @@
     {% if jekyll.environment == 'production' and site.google_analytics %}
       {% include google-analytics.html %}
     {% endif %}
+
+    {% raw %}
+
+<!-- disqus -->
+{% if page.comments == true %}
+{% include disqus.html %}
+{% endif %}
+<!-- disqus -->
+{% endraw %}
+
+    <script id="dsq-count-scr" src="//wlsdnjinu.disqus.com/count.js" async></script>
   </body>
 </html>
