@@ -37,6 +37,8 @@ comments:
   provider:     "disqus"
   disqus:
     shortname:  "JINU-MAN"
+google_analytics:
+    tracking_id: G-405GV7TSLM
 
 # Exclude from processing.
 # The following items will not be processed, by default.
