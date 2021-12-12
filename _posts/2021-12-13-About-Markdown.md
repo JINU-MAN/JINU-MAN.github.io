@@ -33,9 +33,10 @@ comments: ture
     + 2-2
 
 # 코드
-코드의 앞 뒤로 '`'을 붙여서 코드를 표시할 수 있다.
-`System.print.out("Hello world!");`
-3개의 '`'으로 코드 블록을 표시할 수 있고 '```'에 어떤 언어를 사용하는지 쓰면 표시해준다.
+3개의 '`'으로 코드 블록을 표시할 수 있고 '```'에 어떤 언어를 사용하는지 쓰면 강조해준다.
+``` python
+    print("Hello world!")
+```
 ``` java
 System.print.out("Hello world!");
 ```
