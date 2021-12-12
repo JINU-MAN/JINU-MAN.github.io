@@ -37,8 +37,13 @@ comments:
   provider:     "disqus"
   disqus:
     shortname:  "JINU-MAN"
-google_analytics: G-405GV7TSLM
-    tracking_id: G-405GV7TSLM
+# Analytics
+analytics:
+  provider               : "google-gtag" 
+                          # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : "G-405GV7TSLM"
+    anonymize_ip         : # true, false (default)
 
 # Exclude from processing.
 # The following items will not be processed, by default.
