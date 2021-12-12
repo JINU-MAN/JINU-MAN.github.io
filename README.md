@@ -26,6 +26,10 @@
 - 2021-12-13
     - 필수 과제에 Git & Github, Jekyll, Markdown 등 배운 내용에 대한     포스트를 작성하는 과제가 있어서 마크다운에 대한 포스트를 작성했다.
     - ++코멘트 추가를 드디어 성공했다.
-    - 추가 과제인 favicon 적용을 해보았다. 게임 개발자가 되겠다는 마음을 담아 컨트롤러로 적용했다.
-
+    - 
+    - 추가 과제인 favicon 적용을 해보았다.
     - ++ favicon은 적용되는데 시간이 좀 걸린다고 해서 기다리면서 google analytics 적용도 해보았다.
+
+    - ++ favicon도 적용 안됐고 google analytics도 적용이 안됐다. google analytics는 좀 옛날 블로그를 봐서 그런가 하고 일단 최신 블로그를 보고 수정해보았는데 favicon은 _includes의 head폴더 안의 custom.html 파일을 수정하라는데 그런 폴더 자체가 없어서 그냥 포기했다.
+
+    - ++ google analytics도 안되서 그냥 둘 다 포기하기로 했다.
